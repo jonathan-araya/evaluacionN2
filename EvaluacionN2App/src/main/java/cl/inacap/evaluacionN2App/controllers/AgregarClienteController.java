@@ -77,7 +77,7 @@ public class AgregarClienteController extends HttpServlet {
 			
 		}
 		
-		if (errores.isEmpty() && solicitud != "Retiro de cedula de identidad") {
+		if (errores.isEmpty()) {
 			
 			
 			
@@ -142,6 +142,9 @@ public class AgregarClienteController extends HttpServlet {
 		
 		return validacion;
 	}
+	
+	
+	
 	
 	
 

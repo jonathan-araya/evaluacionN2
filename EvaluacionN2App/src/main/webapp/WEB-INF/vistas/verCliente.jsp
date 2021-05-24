@@ -52,7 +52,7 @@
 								<td>${cliente.nombre}</td>
 								<td>${cliente.tipo_solicitud}</td>
 								<td>
-									<a href="VerClienteController.do?nombreEliminar=${cliente.nombre}" class="button has-text-danger">Atender</a>
+									<a href="VerClienteController.do?nombreEliminar=${cliente.nombre}" class="button has-text-primary">Atender</a>
 								</td>
 							</tr>
 						</c:forEach>
